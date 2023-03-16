@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.form-campo {
+    margin-bottom: 16px;
+}
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+form {
+    max-width: 360px;
+}
+form button {
+    max-width: 120px;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+input {
+    margin-top: 8px;
+}
